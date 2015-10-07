@@ -1984,7 +1984,7 @@
 
 	.image {
 		border-radius: 0.35em;
-		border: 0;
+		border: 1px solid lightgrey;
 		display: inline-block;
 		position: relative;
 	}
@@ -2000,7 +2000,7 @@
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.5;
+			opacity: 0;
 			position: absolute;
 			top: 0;
 			width: 100%;
