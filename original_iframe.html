@@ -1,4 +1,6 @@
 <body>
+<iframe>
+</iframe>
 <script>
     const iframe = document.querySelector('iframe');
     const iframeDoc = iframe.contentWindow.document;
@@ -6,6 +8,4 @@
     iframeDoc.write('<script>alert(JSON.stringify({__gsaExp, id: __gsaExp.id()}));<' + '/script>');
     iframeDoc.close();
 </script>
-<iframe>
-</iframe>
 </body>
